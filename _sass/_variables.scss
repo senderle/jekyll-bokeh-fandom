@@ -6,15 +6,16 @@ $body-font-family: Athelas, Palatino, Georgia, serif;
 // Type scale
 $typeunit: 4px !default;
 
-$h0-mobile: ($typeunit * 10) !default;
-$h0-desktop: ($typeunit * 13) !default;
+$h0-mobile: ($typeunit * 9) !default;
+$h0-desktop: ($typeunit * 12) !default;
 
-$h1-size: ($typeunit * 8) !default;
-$h2-size: ($typeunit * 7) !default;
-$h3-size: ($typeunit * 6) !default;
-$h4-size: ($typeunit * 5) !default;
-$h5-size: ($typeunit * 4) !default;
-$h6-size: ($typeunit * 3) !default;
+$h1-size: ($typeunit * 7) !default;
+$h2-size: ($typeunit * 6) !default;
+$h3-size: ($typeunit * 5) !default;
+$h4-size: ($typeunit * 4) !default;
+$h5-size: ($typeunit * 3) !default;
+$h6-size: ($typeunit * 2) !default;
+
 
 $body-font-size: $h5-size;
 $prose-font-size: $h4-size;
@@ -23,7 +24,7 @@ $prose-font-size: $h4-size;
 $container-width: 52em;
 
 // Large breakpoint
-$breakpoint-lg: 52em;
+$breakpoint-lg: 62em;
 
 // Spacing unit
 $spacer: 4px !default;

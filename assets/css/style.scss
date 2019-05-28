@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` and set theme here
 @import
-        "theme-{{ site.theme_color | default: "light" }}.scss"
-        // "theme-{{ site.theme_fonts | default: "system" }}.scss"
+        "_theme-light.scss"
 ;

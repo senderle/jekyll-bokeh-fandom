@@ -1,23 +1,28 @@
 project_title: "Measuring Fan Engagement"
 project_subtitle: "Finding and Quantifying Text Reuse in Fan Fiction"
+
 project_sponsor: 
  - name: "Price Lab for Digital Humanities"
  - name: "Penn Libraries"
+ 
 principal_investigator: 
  - name: Peter Decherney
    title: "Professor, English and Cinema Studies"
  - name: James Fiumara
    title: "Research Project Manager, Linguistic Data Consortium"
+   
 principal_developer: 
  - name: Scott Enderle
+   title: "DH Specialist Librarian, Penn Libraries"
+   
 project_developer:
  - name: Ann
  - name: Sophie
+ 
 project_research_assistant:
  - name: Nathan
-project_consultant:
- - name: Somebody
-maintaining_institutions: 
+ 
+maintaining_institution: 
  - name: "The Price Lab for Digital Humanities"
    url: https://pricelab.sas.upenn.edu/
  - name: "Penn Libraries Digital Scholarship"

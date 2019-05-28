@@ -1,9 +1,12 @@
 <div class="container mx-auto clearfix mt-2 mt-lg-4 px-2">
   <div class="border-top-thick">
     <p class="sm-width-full left py-2 mb-0">This page is maintained by 
-      <a class="text-accent" href="{{ site.maintaining_institutions[0].url }}">{{ site.maintaining_institutions[0].name }}</a>
-      and
-      <a class="text-accent" href="{{ site.maintaining_institutions[1].url }}">{{ site.maintaining_institutions[1].name }}</a>
+      {% for m in site.data.project.maintaining_institution %}
+          <a class="text-accent" href="{{ m.url }}">{{ m.name }}</a>
+          {% if forloop.last != true %}
+            and 
+          {% endif %}
+      {% endfor %}
     </p>
     <ul class="list-reset right clearfix sm-width-full py-2 mb-2 mb-lg-0">
       <!-- <li class="inline-block mr-1">
