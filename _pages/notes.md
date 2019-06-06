@@ -4,7 +4,7 @@ title: "Notes"
 display_site_title: true
 display_page_title: true
 hidden: true
-order: 2
+order: 1001
 permalink: /notes/
 ---
 
