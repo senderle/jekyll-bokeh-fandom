@@ -5,7 +5,7 @@ short_title: "SW: Attack of the Clones"
 display_site_title: true
 display_page_title: true
 order: 4
-vis_include: clones_reuse.html
+vis_include: vis/sw/clones_reuse.html
 permalink: /sw-clones/
 ---
 

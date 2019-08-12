@@ -5,7 +5,7 @@ short_title: "Hobbit: Battle of the Five Armies"
 display_site_title: true
 display_page_title: true
 order: 32
-vis_include: battle_reuse.html
+vis_include: vis/hobbit/battle_reuse.html
 permalink: /hobbit-battle-of-the-five-armies/
 ---
 

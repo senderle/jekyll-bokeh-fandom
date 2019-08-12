@@ -5,7 +5,7 @@ short_title: "SW: Phantom Menace"
 display_site_title: true
 display_page_title: true
 order: 3
-vis_include: phantom_reuse.html
+vis_include: vis/sw/phantom_reuse.html
 permalink: /sw-phantom/
 ---
 

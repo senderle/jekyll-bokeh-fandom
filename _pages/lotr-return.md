@@ -5,7 +5,7 @@ short_title: "LOTR: Return of the King"
 display_site_title: true
 display_page_title: true
 order: 22
-vis_include: return_reuse.html
+vis_include: vis/lotr/return_reuse.html
 permalink: /lotr-return-of-the-king/
 ---
 

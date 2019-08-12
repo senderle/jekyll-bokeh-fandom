@@ -5,7 +5,7 @@ short_title: "SW: Empire Strikes Back"
 display_site_title: true
 display_page_title: true
 order: 1
-vis_include: empire_reuse.html
+vis_include: vis/sw/empire_reuse.html
 permalink: /sw-empire/
 ---
 

@@ -5,7 +5,7 @@ short_title: "SW: New Hope"
 display_site_title: true
 display_page_title: true
 order: 0
-vis_include: new_hope_reuse.html
+vis_include: vis/sw/new_hope_reuse.html
 permalink: /sw-new-hope/
 ---
 

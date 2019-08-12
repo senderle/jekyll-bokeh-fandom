@@ -5,7 +5,7 @@ short_title: "SW: Last Jedi"
 display_site_title: true
 display_page_title: true
 order: 7
-vis_include: last_jedi_reuse.html
+vis_include: vis/sw/last_jedi_reuse.html
 permalink: /sw-last-jedi/
 ---
 
