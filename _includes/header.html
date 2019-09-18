@@ -7,28 +7,166 @@
        home
     </a>
   </div> -->
-  <div class="right-lg absolute-lg right-0 top-0">
+
+  <!-- <div class="right-lg absolute-lg right-0 top-0">
     <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
-      <li class="inline-block block-lg text-right ml-1 ml-lg-0">
+      <li class="inline-block block-lg text-right ml-1 ml-lg-0" >
         <a class="italic h4 bold no-underline" href="{{ site.baseurl }}/">
           {{ site.title }}
         </a>
       </li>
+      <li class="inline-block block-lg">
+      <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Movie</button>
+      <div id="myDropdown" class="dropdown-content">
       {% assign sorted_pages = site.pages | sort:"order" %}
       {% for my_page in sorted_pages %}
         {% if my_page.title and my_page.hidden == nil %}
-        <li class="inline-block block-lg text-right ml-1 ml-lg-0">
-          <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+        <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
               {% if my_page.short_title %}
                   {{ my_page.short_title }}
               {% else %}
                   {{ my_page.title }}
               {% endif %}
-
-          </a>
-        </li>
+        </a>
         {% endif %}
       {% endfor %}
+      </div>
+      </div>
+    </li>
+
+
+    </ul>
+  </div> -->
+
+  <div class="right-lg absolute-lg right-0 top-0">
+    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
+      <li class="inline-block block-lg text-right ml-1 ml-lg-0" >
+        <a class="italic h4 bold no-underline" href="{{ site.baseurl }}/">
+          {{ site.title }}
+        </a>
+      </li>
+      <li class="inline-block block-lg">
+      <div class="dropdown">
+      <button class="dropbtn">Star Wars</button>
+      <div id="myDropdown" class="dropdown-content">
+      {% assign sorted_pages = site.pages | sort:"order" %}
+      {% for my_page in sorted_pages %}
+        {% assign slice = my_page.short_title | slice: 0,2 %}
+        {% if slice == 'SW' %}
+          {% if my_page.title and my_page.hidden == nil %}
+          <a class="italic no-underline" href="{{ my_page.url | prepend: site.baseurl }}">
+            {% if my_page.short_title %}
+               {{ my_page.short_title }}
+            {% else %}
+                {{ my_page.title }}
+            {% endif %}
+        </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      </div>
+
+      </div>
+
+    </li>
+
+    <li class="inline-block block-lg">
+    <div class="dropdown">
+    <button class="dropbtn">Lord of the Rings</button>
+    <div id="myDropdown" class="dropdown-content">
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for my_page in sorted_pages %}
+      {% assign slice = my_page.short_title | slice: 0,2 %}
+      {% if slice == 'LO' %}
+        {% if my_page.title and my_page.hidden == nil %}
+        <a class="italic no-underline" href="{{ my_page.url | prepend: site.baseurl }}">
+          {% if my_page.short_title %}
+             {{ my_page.short_title }}
+          {% else %}
+              {{ my_page.title }}
+          {% endif %}
+      </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    </div>
+
+    </li>
+    <li class="inline-block block-lg">
+    <div class="dropdown">
+    <button class="dropbtn">The Hobbit</button>
+    <div id="myDropdown" class="dropdown-content">
+    {% assign sorted_pages = site.pages | sort:"order" %}
+    {% for my_page in sorted_pages %}
+      {% assign slice = my_page.short_title | slice: 0,2 %}
+      {% if slice == 'Ho' %}
+        {% if my_page.title and my_page.hidden == nil %}
+        <a class="italic no-underline" href="{{ my_page.url | prepend: site.baseurl }}">
+          {% if my_page.short_title %}
+             {{ my_page.short_title }}
+          {% else %}
+              {{ my_page.title }}
+          {% endif %}
+      </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    </div>
+
+  </li>
+
+  <li class="inline-block block-lg">
+  <div class="dropdown">
+  <button class="dropbtn">Harry Potter</button>
+  <div id="myDropdown" class="dropdown-content">
+  {% assign sorted_pages = site.pages | sort:"order" %}
+  {% for my_page in sorted_pages %}
+    {% assign slice = my_page.short_title | slice: 0,2 %}
+    {% if slice == 'Ha' %}
+      {% if my_page.title and my_page.hidden == nil %}
+      <a class="italic no-underline" href="{{ my_page.url | prepend: site.baseurl }}">
+        {% if my_page.short_title %}
+           {{ my_page.short_title }}
+        {% else %}
+            {{ my_page.title }}
+        {% endif %}
+    </a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </div>
+
+  </div>
+
+  </li>
+
+
     </ul>
   </div>
+
+<script type="text/javascript">
+  function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
 </header>
