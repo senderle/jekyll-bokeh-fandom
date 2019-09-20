@@ -1,44 +1,4 @@
 <header class="px-2 clearfix">
-  <!-- <div class="left-lg absolute-lg left-0 top-0 sm-width-full mt-2">
-    <a class="no-underline-hover px-1" href="{{ site.baseurl }}/">
-      <span class="inline-block h4 hide-sm ml-2">&#x261c;</span>
-    </a>
-    <a class="italic no-underline" href="{{ site.baseurl }}/">
-       home
-    </a>
-  </div> -->
-
-  <!-- <div class="right-lg absolute-lg right-0 top-0">
-    <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
-      <li class="inline-block block-lg text-right ml-1 ml-lg-0" >
-        <a class="italic h4 bold no-underline" href="{{ site.baseurl }}/">
-          {{ site.title }}
-        </a>
-      </li>
-      <li class="inline-block block-lg">
-      <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Movie</button>
-      <div id="myDropdown" class="dropdown-content">
-      {% assign sorted_pages = site.pages | sort:"order" %}
-      {% for my_page in sorted_pages %}
-        {% if my_page.title and my_page.hidden == nil %}
-        <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
-              {% if my_page.short_title %}
-                  {{ my_page.short_title }}
-              {% else %}
-                  {{ my_page.title }}
-              {% endif %}
-        </a>
-        {% endif %}
-      {% endfor %}
-      </div>
-      </div>
-    </li>
-
-
-    </ul>
-  </div> -->
-
   <div class="right-lg absolute-lg right-0 top-0">
     <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
       <li class="inline-block block-lg text-right ml-1 ml-lg-0" >
@@ -57,7 +17,7 @@
           {% if my_page.title and my_page.hidden == nil %}
           <a class="italic no-underline" href="{{ my_page.url | prepend: site.baseurl }}">
             {% if my_page.short_title %}
-               {{ my_page.short_title }}
+               {{ my_page.short_title | remove_first: "SW: "}}
             {% else %}
                 {{ my_page.title }}
             {% endif %}
@@ -82,7 +42,7 @@
         {% if my_page.title and my_page.hidden == nil %}
         <a class="italic no-underline" href="{{ my_page.url | prepend: site.baseurl }}">
           {% if my_page.short_title %}
-             {{ my_page.short_title }}
+             {{ my_page.short_title | remove_first: "LOTR: " }}
           {% else %}
               {{ my_page.title }}
           {% endif %}
@@ -106,7 +66,7 @@
         {% if my_page.title and my_page.hidden == nil %}
         <a class="italic no-underline" href="{{ my_page.url | prepend: site.baseurl }}">
           {% if my_page.short_title %}
-             {{ my_page.short_title }}
+             {{ my_page.short_title | remove_first: "Hobbit: "}}
           {% else %}
               {{ my_page.title }}
           {% endif %}
@@ -131,7 +91,7 @@
       {% if my_page.title and my_page.hidden == nil %}
       <a class="italic no-underline" href="{{ my_page.url | prepend: site.baseurl }}">
         {% if my_page.short_title %}
-           {{ my_page.short_title }}
+           {{ my_page.short_title | remove_first: "Harry Potter: "}}
         {% else %}
             {{ my_page.title }}
         {% endif %}
