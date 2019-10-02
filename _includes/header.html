@@ -81,29 +81,34 @@
   </li>
 
   <li class="inline-block block-lg">
-  <div class="dropdown">
-  <button class="dropbtn h4">Harry Potter &nbsp; <i class="arrow down"></i></button>
-  <div id="myDropdown" class="dropdown-content">
-  {% assign sorted_pages = site.pages | sort:"order" %}
-  {% for my_page in sorted_pages %}
-    {% assign slice = my_page.short_title | slice: 0,2 %}
-    {% if slice == 'Ha' %}
-      {% if my_page.title and my_page.hidden == nil %}
-      <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
-        {% if my_page.short_title %}
-           {{ my_page.short_title | remove_first: "Harry Potter: "}}
-        {% else %}
-            {{ my_page.title }}
-        {% endif %}
-    </a>
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-  </div>
+    <div class="dropdown">
+      <button class="dropbtn h4">Harry Potter &nbsp; <i class="arrow down"></i></button>
+      <div id="myDropdown" class="dropdown-content">
+        {% assign sorted_pages = site.pages | sort:"order" %}
+        {% for my_page in sorted_pages %}
+          {% assign slice = my_page.short_title | slice: 0,2 %}
+          {% if slice == 'Ha' %}
+            {% if my_page.title and my_page.hidden == nil %}
+            <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+              {% if my_page.short_title %}
+                 {{ my_page.short_title | remove_first: "Harry Potter: "}}
+              {% else %}
+                  {{ my_page.title }}
+              {% endif %}
+          </a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
 
-  </div>
+    </div>
 
   </li>
+
+  <li class="inline-block block-lg">
+    <a class="no-underline h4" href="https://senderle.github.io/jekyll-bokeh-fandom/about/"> &nbsp; About </a>
+  </li>
+
 
 
     </ul>
