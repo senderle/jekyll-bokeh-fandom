@@ -8,4 +8,4 @@ order: 1000
 
 ---
 
-[[About text here.]]
+The Jekyll site for this project can be found <a href="https://github.com/senderle/jekyll-bokeh-fandom" target="_blank"> here </a> and the fandom search code can be found <a href="https://github.com/senderle/fandom-search" target="_blank"> here </a>
