@@ -1,7 +1,7 @@
 ---
 layout: vis
 title: "Fantastic Beasts: The Crimes of Grindelwald"
-short_title: "Harry Potter: The Crimes of Grindelwald"
+short_title: "Harry Potter: Crimes of Grindelwald"
 display_site_title: true
 display_page_title: true
 order: 49

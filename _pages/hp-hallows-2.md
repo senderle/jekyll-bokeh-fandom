@@ -1,7 +1,7 @@
 ---
 layout: vis
-title: "Harry Potter and the Deathly Hallows (2)"
-short_title: "Harry Potter: Deathly Hallows (2)"
+title: "Harry Potter and the Deathly Hallows 2"
+short_title: "Harry Potter: Deathly Hallows 2"
 display_site_title: true
 display_page_title: true
 order: 47

@@ -1,6 +1,6 @@
 ---
 layout: vis
-title: "Harry Potter: Fantastic Beasts and Where to Find Them"
+title: "Fantastic Beasts and Where to Find Them"
 short_title: "Harry Potter: Fantastic Beasts"
 display_site_title: true
 display_page_title: true
