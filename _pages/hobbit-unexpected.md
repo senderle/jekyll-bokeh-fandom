@@ -1,7 +1,7 @@
 ---
 layout: vis
 title: "The Hobbit: An Unexpected Journey"
-title: "Hobbit: Unexpected Journey"
+short_title: "Hobbit: Unexpected Journey"
 display_site_title: true
 display_page_title: true
 order: 30
