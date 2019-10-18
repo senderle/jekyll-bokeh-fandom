@@ -16,11 +16,13 @@ principal_developer:
    title: "DH Specialist Librarian, Penn Libraries"
    
 project_developer:
- - name: Ann
- - name: Sophie
+ - name: Anna Marion
+ - name: Sophia Ye
+ - name: Joel Lee
+ - name: Eliot Montpelier
  
 project_research_assistant:
- - name: Nathan
+ - name: Nathan Emery
  
 maintaining_institution: 
  - name: "The Price Lab for Digital Humanities"
