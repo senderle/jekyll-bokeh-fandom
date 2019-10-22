@@ -2,20 +2,20 @@
   <div class="right-lg absolute-lg right-0 top-0">
     <ul class="mt-1 mt-lg-2 mr-2 mr-lg-3">
       <li class="inline-block block-lg text-right ml-1 ml-lg-0" >
-        <a class="italic h4 bold no-underline" href="{{ site.baseurl }}/">
+        <a class="italic h3 bold no-underline" href="{{ site.baseurl }}/">
           {{ site.title }}
         </a>
       </li>
       <li class="inline-block block-lg">
       <div class="dropdown">
-      <button class="dropbtn h4">Star Wars &nbsp;<i class="arrow down"></i></button>
+      <button class="dropbtn h3">Star Wars &nbsp;<i class="arrow down"></i></button>
       <div id="myDropdown" class="dropdown-content">
       {% assign sorted_pages = site.pages | sort:"order" %}
       {% for my_page in sorted_pages %}
         {% assign slice = my_page.short_title | slice: 0,2 %}
         {% if slice == 'SW' %}
           {% if my_page.title and my_page.hidden == nil %}
-          <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+          <a class="italic no-underline h3" href="{{ my_page.url | prepend: site.baseurl }}">
             {% if my_page.short_title %}
                {{ my_page.short_title | remove_first: "SW: "}}
             {% else %}
@@ -33,14 +33,14 @@
 
     <li class="inline-block block-lg">
     <div class="dropdown">
-    <button class="dropbtn h4 pull-left">Lord of the Rings &nbsp;<i class="arrow down"></i></button>
+    <button class="dropbtn h3 pull-left">Lord of the Rings &nbsp;<i class="arrow down"></i></button>
     <div id="myDropdown" class="dropdown-content">
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for my_page in sorted_pages %}
       {% assign slice = my_page.short_title | slice: 0,2 %}
       {% if slice == 'LO' %}
         {% if my_page.title and my_page.hidden == nil %}
-        <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+        <a class="italic no-underline h3" href="{{ my_page.url | prepend: site.baseurl }}">
           {% if my_page.short_title %}
              {{ my_page.short_title | remove_first: "LOTR: " }}
           {% else %}
@@ -57,14 +57,14 @@
     </li>
     <li class="inline-block block-lg">
     <div class="dropdown">
-    <button class="dropbtn h4">The Hobbit &nbsp; <i class="arrow down"></i></button>
+    <button class="dropbtn h3">The Hobbit &nbsp; <i class="arrow down"></i></button>
     <div id="myDropdown" class="dropdown-content">
     {% assign sorted_pages = site.pages | sort:"order" %}
     {% for my_page in sorted_pages %}
       {% assign slice = my_page.short_title | slice: 0,2 %}
       {% if slice == 'Ho' %}
         {% if my_page.title and my_page.hidden == nil %}
-        <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+        <a class="italic no-underline h3" href="{{ my_page.url | prepend: site.baseurl }}">
           {% if my_page.short_title %}
              {{ my_page.short_title | remove_first: "Hobbit: "}}
           {% else %}
@@ -82,14 +82,14 @@
 
   <li class="inline-block block-lg">
     <div class="dropdown">
-      <button class="dropbtn h4">Harry Potter &nbsp; <i class="arrow down"></i></button>
+      <button class="dropbtn h3">Harry Potter &nbsp; <i class="arrow down"></i></button>
       <div id="myDropdown" class="dropdown-content">
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for my_page in sorted_pages %}
           {% assign slice = my_page.short_title | slice: 0,2 %}
           {% if slice == 'Ha' %}
             {% if my_page.title and my_page.hidden == nil %}
-            <a class="italic no-underline h4" href="{{ my_page.url | prepend: site.baseurl }}">
+            <a class="italic no-underline h3" href="{{ my_page.url | prepend: site.baseurl }}">
               {% if my_page.short_title %}
                  {{ my_page.short_title | remove_first: "Harry Potter: "}}
               {% else %}
@@ -106,7 +106,7 @@
   </li>
 
   <li class="inline-block block-lg">
-    <a class="no-underline h4" href="https://senderle.github.io/jekyll-bokeh-fandom/about/"> &nbsp; About </a>
+    <a class="no-underline h3" href="https://senderle.github.io/jekyll-bokeh-fandom/about/"> &nbsp; About </a>
   </li>
 
 
