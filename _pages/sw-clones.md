@@ -8,5 +8,3 @@ order: 4
 vis_include: vis/sw/clones_reuse.html
 permalink: /sw-clones/
 ---
-
-[[Visualzation page text here.]]

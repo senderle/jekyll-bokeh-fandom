@@ -8,5 +8,3 @@ order: 40
 vis_include: vis/hp/sorcerers_stone_reuse.html
 permalink: /hp-sorcerers-stone/
 ---
-
-[[Visualzation page text here.]]

@@ -8,5 +8,3 @@ order: 10
 vis_include: vis/sw/solo_reuse.html
 permalink: /sw-solo/
 ---
-
-[[Visualzation page text here.]]

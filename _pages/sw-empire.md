@@ -8,5 +8,3 @@ order: 1
 vis_include: vis/sw/empire_reuse.html
 permalink: /sw-empire/
 ---
-
-[[Visualzation page text here.]]

@@ -8,5 +8,3 @@ order: 41
 vis_include: vis/hp/chamber_reuse.html
 permalink: /hp-chamber/
 ---
-
-[[Visualzation page text here.]]

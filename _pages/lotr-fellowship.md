@@ -8,5 +8,3 @@ order: 20
 vis_include: vis/lotr/fellowship_reuse.html
 permalink: /lotr-fellowship-of-the-rings/
 ---
-
-[[Visualzation page text here.]]

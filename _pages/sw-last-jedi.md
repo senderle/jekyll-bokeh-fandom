@@ -8,5 +8,3 @@ order: 7
 vis_include: vis/sw/last_jedi_reuse.html
 permalink: /sw-last-jedi/
 ---
-
-[[Visualzation page text here.]]

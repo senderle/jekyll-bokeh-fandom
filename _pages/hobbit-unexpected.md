@@ -8,5 +8,3 @@ order: 30
 vis_include: vis/hobbit/unexpected_reuse.html
 permalink: /hobbit-unexpected-journey/
 ---
-
-[[Visualzation page text here.]]

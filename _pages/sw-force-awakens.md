@@ -8,5 +8,3 @@ order: 6
 vis_include: vis/sw/force_awakens_reuse.html
 permalink: /sw-force-awakens/
 ---
-
-[[Visualzation page text here.]]

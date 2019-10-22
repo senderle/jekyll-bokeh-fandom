@@ -8,5 +8,3 @@ order: 32
 vis_include: vis/hobbit/battle_reuse.html
 permalink: /hobbit-battle-of-the-five-armies/
 ---
-
-[[Visualzation page text here.]]

@@ -8,5 +8,3 @@ order: 31
 vis_include: vis/hobbit/desolation_reuse.html
 permalink: /hobbit-desolation-of-smaug/
 ---
-
-[[Visualzation page text here.]]

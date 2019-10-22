@@ -8,5 +8,3 @@ order: 22
 vis_include: vis/lotr/return_reuse.html
 permalink: /lotr-return-of-the-king/
 ---
-
-[[Visualzation page text here.]]

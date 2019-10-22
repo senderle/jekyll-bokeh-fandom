@@ -8,5 +8,3 @@ order: 3
 vis_include: vis/sw/phantom_reuse.html
 permalink: /sw-phantom/
 ---
-
-[[Visualzation page text here.]]

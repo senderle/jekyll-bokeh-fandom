@@ -8,5 +8,3 @@ order: 43
 vis_include: vis/hp/goblet_reuse.html
 permalink: /hp-goblet/
 ---
-
-[[Visualzation page text here.]]

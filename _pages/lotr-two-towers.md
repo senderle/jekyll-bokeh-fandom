@@ -8,5 +8,3 @@ order: 21
 vis_include: vis/lotr/two_towers_reuse.html
 permalink: /lotr-two-towers/
 ---
-
-[[Visualzation page text here.]]

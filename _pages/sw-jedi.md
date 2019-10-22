@@ -8,5 +8,3 @@ order: 2
 vis_include: vis/sw/jedi_reuse.html
 permalink: /sw-jedi/
 ---
-
-[[Visualzation page text here.]]

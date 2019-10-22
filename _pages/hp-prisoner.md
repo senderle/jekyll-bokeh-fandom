@@ -8,5 +8,3 @@ order: 42
 vis_include: vis/hp/prisoner_reuse.html
 permalink: /hp-prisoner/
 ---
-
-[[Visualzation page text here.]]

@@ -8,5 +8,3 @@ order: 5
 vis_include: vis/sw/sith_reuse.html
 permalink: /sw-sith/
 ---
-
-[[Visualzation page text here.]]

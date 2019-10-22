@@ -4,7 +4,7 @@ display_site_title: true
 ---
 
 # What is the Fan Engagement Meter?
-The Fan Engagement Meter identifies lines of film dialogue that fans most like to repeat, rewrite, revise, and riff off of.  Does more fan fiction rework the scene in which Darth Vader tells Luke, “I am your father” or Han Solo and Princess Leia’s “I love you / I know” scene? Whose character inspires more fan writing: Hermione or Voldemort? And do these moments of high engagement correspond with other ways of analyzing the script? Do angry moments, for example, ignite more fan writing than sad ones? Are scenes with Bilbo and Gandalf rewritten more than scenes with Bilbo and Smeagol? These are just a few ways that fans and scholars may want to use this tool.
+The Fan Engagement Meter identifies lines of film dialogue that fans most like to repeat, rewrite, revise, and riff off of.  Does more fan fiction rework the scene in which Darth Vader tells Luke, “I am your father” or Han Solo and Princess Leia’s “I love you / I know” scene? Whose character inspires more fan writing: Hermione or Voldemort? And do these moments of high engagement correspond with other ways of analyzing the script? Do angry moments, for example, ignite more fan writing than sad ones? Are scenes with Bilbo and Gandalf rewritten more than scenes with Bilbo and Smeagol? These are just a few ways that fans and scholars may want to use this tool. See the menu above for links to visualizations for all the films we've analyzed so far.
 
 
 # How does it work?
@@ -16,7 +16,7 @@ You can hover over points on the graph to see which blocks of text they represen
 
 The additional buttons in green, orange, and red allow you to compare the reuse of the dialogue with the other methods of analysis. You can compare reuse with dialogue affect or with the characters speaking in a scene. We hope to add additional comparative frameworks in the future. What would be useful? 
 
-For now, we have included *Star Wars*, *Harry Potter*, and *Lord of the Rings/The Hobbit*, because these franchises have some of the largest fan communities on an Archive of Our Own. But we hope to include more franchises, scripts, and even books in the future.  
+For now, we have included *Star Wars*, *Harry Potter*, and *Lord of the Rings/The Hobbit*, because these franchises have some of the largest fan communities on an Archive of Our Own. But we hope to include more franchises, scripts, and even books in the future.
 
 # What's next?
 We have released a basic version of this tool, but we hope that it will expand in ways that are useful to scholars and fans. The most obvious way that it can grow is to include new franchises and scripts. We are happy to include additional scripts. If you would like a script to be included, you may submit it to [our script submission form](https://docs.google.com/forms/d/e/1FAIpQLScWlkPMhPmkfisL6uv1FP7w8Ppm-cRXB_Zb7iiiryc5Jc1eDA/viewform?usp=sf_link).  It must first be formatted according to our style guidelines, which can be found [here](https://docs.google.com/document/d/12czdbdUexiJnAl64UcYZ2mrZYx2NtFjVp5Acl9ioukc/edit?usp=sharing).

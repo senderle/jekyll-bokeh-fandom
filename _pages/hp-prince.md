@@ -8,5 +8,3 @@ order: 45
 vis_include: vis/hp/prince_reuse.html
 permalink: /hp-prince/
 ---
-
-[[Visualzation page text here.]]

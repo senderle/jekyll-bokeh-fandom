@@ -8,5 +8,3 @@ order: 9
 vis_include: vis/sw/rogue_one_reuse.html
 permalink: /sw-rogue-one/
 ---
-
-[[Visualzation page text here.]]
