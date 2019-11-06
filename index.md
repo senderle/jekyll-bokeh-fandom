@@ -4,7 +4,7 @@ display_site_title: true
 ---
 
 # What is the Fan Engagement Meter?
-The Fan Engagement Meter identifies lines of film dialogue that fans most like to repeat, rewrite, revise, and riff off of.  Does more fan fiction rework the scene in which Darth Vader tells Luke, “I am your father” or Han Solo and Princess Leia’s “I love you / I know” scene? Whose character inspires more fan writing: Hermione or Voldemort? And do these moments of high engagement correspond with other ways of analyzing the script? Do angry moments, for example, ignite more fan writing than sad ones? Are scenes with Bilbo and Gandalf rewritten more than scenes with Bilbo and Smeagol? These are just a few ways that fans and scholars may want to use this tool. See the menu above for links to visualizations for all the films we've analyzed so far.
+The Fan Engagement Meter identifies lines of film dialogue that fans most like to repeat, rewrite, revise, and riff on.  Does more fan fiction rework the scene in which Darth Vader tells Luke, “I am your father” or Han Solo and Princess Leia’s “I love you / I know” scene? Whose character inspires more fan writing: Hermione or Voldemort? And do these moments of high engagement correspond with other ways of analyzing the script? Do angry moments, for example, ignite more fan writing than sad ones? Are scenes with Bilbo and Gandalf rewritten more than scenes with Bilbo and Smeagol? These are just a few ways that fans and scholars may want to use this tool. See the menu above for links to visualizations for all the films we've analyzed so far.
 
 
 # How does it work?
