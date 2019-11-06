@@ -9,5 +9,5 @@ vis_include: vis/sw/new_hope_reuse.html
 permalink: /sw-new-hope/
 ---
 
-The current visualization is based on an early version of the script. A 
-visualization based on the shooting script is coming soon.
+The current visualization is based on an early version of the script.
+A visualization based on the shooting script is coming soon.
